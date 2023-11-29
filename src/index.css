@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  */
+
+:is(*) > .btn, h1, h2, h3, h4, h5, div {
+    color: #fff;
+}
+
+.custom-card-image .card.image-full:before {
+    border-radius: 0.5rem;
+    opacity: 0.45;
+}
